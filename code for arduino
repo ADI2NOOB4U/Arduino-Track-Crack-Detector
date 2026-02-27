@@ -38,7 +38,7 @@ void loop() {
   Serial.println(distance);
 
   // Crack detection logic
-  if (distance > 20 && distance < 400) {
+  if (distance > 40 && distance < 400) {
     digitalWrite(ledPin, HIGH);
     digitalWrite(buzzerPin, HIGH);
   } 
